@@ -127,7 +127,9 @@ px4_add_romfs_files(
 	13010_claire
 	13012_convergence
 	13013_deltaquad
-
+	13020_claire_vtail
+	13022_convergence_vtail
+	
 	# [14000, 14999] Tri Y
 	14001_tri_y_yaw+
 	14002_tri_y_yaw-
@@ -136,7 +138,6 @@ px4_add_romfs_files(
 
 	16001_helicopter
 	
-	24001_dodeca_cox
 
 	50000_generic_ground_vehicle
 	50001_axialracing_ax10

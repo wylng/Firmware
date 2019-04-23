@@ -43,11 +43,10 @@ px4_add_romfs_files(
 	CCPM.main.mix
 	claire.aux.mix
 	claire.main.mix
+	claire_vtail.main.mix
 	coax.main.mix
 	delta.main.mix
 	deltaquad.main.mix
-	dodeca_bottom_cox.aux.mix
-	dodeca_top_cox.main.mix
 	firefly6.aux.mix
 	firefly6.main.mix
 	fw_generic_wing.main.mix
@@ -80,6 +79,7 @@ px4_add_romfs_files(
 	ugv_generic.main.mix
 	Viper.main.mix
 	vtol_AAERT.aux.mix
+	vtol_AAVV.aux.mix
 	vtol_AAVVT.aux.mix
 	vtol_convergence.main.mix
 	vtol_delta.aux.mix
