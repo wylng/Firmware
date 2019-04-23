@@ -473,7 +473,7 @@ HC_SR04::measure()
 	usleep(10);  // 10us
 	px4_arch_gpiowrite(_gpio_tab[_cycle_counter].trig_port, false);
 
-	px4_arch_gpiosetevent(_gpio_tab[_cycle_counter].echo_port, true, true, false, sonar_isr);
+	px4_arch_gpiosetevent(_gpio_tab[_cycle_counter].echo_port, true, true, false, sonar_isr, this);
 	_status = 0;
 	ret = OK;
 

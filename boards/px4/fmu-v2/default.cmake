@@ -31,7 +31,7 @@ px4_add_board(
 		distance_sensor/ll40ls
 		#distance_sensor/sf0x
 		distance_sensor/mb12xx
-		distance_sensor/hc_sr04	
+		#distance_sensor/hc_sr04	
 		gps
 		#heater
 		#imu/adis16448
