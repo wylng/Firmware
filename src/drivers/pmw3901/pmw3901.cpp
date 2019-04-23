@@ -86,6 +86,8 @@
 # define PMW3901_BUS PX4_SPI_BUS_EXTERNAL1
 #elif defined PX4_SPI_BUS_EXTERNAL    // fmu-v4 extspi
 # define PMW3901_BUS PX4_SPI_BUS_EXTERNAL
+# define PMW3901_BUS PX4_SPI_BUS_EXTERNAL
+#elif defined PX4_SPI_BUS_EXT 		//fmu-v2, fmu-v3
 #else
 # error "add the required spi bus from board_config.h here"
 #endif
@@ -96,6 +98,8 @@
 # define PMW3901_SPIDEV PX4_SPIDEV_EXTERNAL1_1
 #elif defined PX4_SPIDEV_EXTERNAL   // fmu-v4 extspi
 # define PMW3901_SPIDEV PX4_SPIDEV_EXTERNAL
+#elif defined PX4_SPIDEV_EXT_GYRO
+# define PMW3901_SPIDEV PX4_SPIDEV_EXT_GYRO
 #else
 # error "add the required spi dev from board_config.h here"
 #endif

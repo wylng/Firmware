@@ -30,6 +30,8 @@ px4_add_board(
 		#distance_sensor # all available distance sensor drivers
 		distance_sensor/ll40ls
 		#distance_sensor/sf0x
+		distance_sensor/mb12xx
+		distance_sensor/hc_sr04	
 		gps
 		#heater
 		#imu/adis16448
@@ -51,6 +53,7 @@ px4_add_board(
 		#pwm_input
 		pwm_out_sim
 		px4flow
+		pmw3901	
 		px4fmu
 		px4io
 		#roboclaw

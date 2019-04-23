@@ -51,6 +51,7 @@ px4_add_board(
 		pwm_input
 		pwm_out_sim
 		px4flow
+		pmw3901	
 		px4fmu
 		px4io
 		roboclaw
