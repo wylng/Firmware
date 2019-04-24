@@ -38,16 +38,16 @@ px4_add_romfs_files(
 	AETRFG.main.mix
 	bebop.main.mix
 	blade130.main.mix
+	helicopter_450L.mix
 	caipi.main.mix
 	caipirinha_vtol.main.mix
 	CCPM.main.mix
 	claire.aux.mix
 	claire.main.mix
+	claire_vtail.main.mix
 	coax.main.mix
 	delta.main.mix
 	deltaquad.main.mix
-	dodeca_bottom_cox.aux.mix
-	dodeca_top_cox.main.mix
 	firefly6.aux.mix
 	firefly6.main.mix
 	FMU_pass.mix
@@ -83,6 +83,7 @@ px4_add_romfs_files(
 	Viper.main.mix
 	vtol_AAERT.aux.mix
 	vtol_AAVVT.aux.mix
+	vtol_AAVV.aux.mix
 	vtol_convergence.main.mix
 	vtol_delta.aux.mix
 	wingwing.main.mix

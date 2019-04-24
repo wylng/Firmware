@@ -37,7 +37,6 @@ px4_add_romfs_files(
 	2100_standard_plane
 	2105_maja
 	2106_albatross
-	24001_dodeca_cox
 	3000_generic_wing
 	3030_io_camflyer
 	3031_phantom
@@ -91,12 +90,15 @@ px4_add_romfs_files(
 	13008_QuadRanger
 	13009_vtol_spt_ranger
 	13010_claire
+	13020_claire_vtail
 	13012_convergence
+	13022_convergence_vtail
 	13013_deltaquad
 	14001_tri_y_yaw+
 	14002_tri_y_yaw-
 	15001_coax_heli
 	16001_helicopter
+	16011_450L
 	50000_generic_ground_vehicle
 	50001_axialracing_ax10
 	50002_traxxas_stampede_2wd
