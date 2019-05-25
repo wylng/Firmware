@@ -77,5 +77,6 @@ set PWM_OUT 1234
 set PWM_RATE 400
 
 set MIXER_AUX vtol_AAVV
+set PWM_AUX_RATE 50
 
 set MAV_TYPE 21
