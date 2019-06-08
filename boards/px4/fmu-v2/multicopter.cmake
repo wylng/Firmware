@@ -31,6 +31,7 @@ px4_add_board(
 		lights/rgbled
 		magnetometer/hmc5883
 		px4flow
+		pmw3901
 		px4fmu
 		px4io
 		stm32

@@ -81,6 +81,12 @@ then
 	mb12xx start -a
 fi
 
+#pmw3901
+if param greater SENS_EN_PMW3901 0
+then
+	pmw3901 start
+fi
+
 # pga460 sonar sensor
 if param greater SENS_EN_PGA460 0
 then
