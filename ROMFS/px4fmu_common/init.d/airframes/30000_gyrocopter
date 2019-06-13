@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# @name Gyrocopter
+#
+# @type Gyrocopter
+# @class Plane
+#
+# @output MAIN1 left plate
+# @output MAIN2 right plate
+# @output MAIN3 rudder
+# @output MAIN4 throttle
+#
+# @output AUX5 feed-through of RC AUX1 channel
+# @output AUX6 feed-through of RC AUX2 channel
+
+sh /etc/init.d/rc.fw_defaults
+
+set MIXER gyrocopter
