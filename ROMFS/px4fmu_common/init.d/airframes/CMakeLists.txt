@@ -42,6 +42,7 @@ px4_add_romfs_files(
 	
 	# [2000, 2999] Standard planes"
 	2100_standard_plane
+	2102_t6	
 	2105_maja
 	2106_albatross
 	2200_mini_talon
@@ -133,6 +134,8 @@ px4_add_romfs_files(
 	13012_convergence
 	13013_deltaquad
 	13200_generic_vtol_tailsitter
+	13020_claire_vtail
+	13022_convergence_vtail
 
 	# [14000, 14999] Tri Y
 	14001_tri_y_yaw+
@@ -142,7 +145,7 @@ px4_add_romfs_files(
 
 	16001_helicopter
 	
-	24001_dodeca_cox
+	30000_gyrocopter
 
 	50000_generic_ground_vehicle
 	50001_axialracing_ax10

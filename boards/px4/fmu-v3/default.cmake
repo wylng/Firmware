@@ -47,6 +47,8 @@ px4_add_board(
 		mkblctrl
 		#optical_flow # all available optical flow drivers
 		optical_flow/px4flow
+		optical_flow/pmw3901
+
 		pca9685
 		protocol_splitter
 		pwm_input
