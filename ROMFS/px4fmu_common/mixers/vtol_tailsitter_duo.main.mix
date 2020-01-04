@@ -15,13 +15,17 @@ Channel 2 connects to the left (port) motor.
 
 R: 2- 10000 10000 10000 0
 
-Zero mixer (2x)
----------------
-Channels 3,4 are unused.
+mini pixhawk has only 6 ouput, so we use ch3 ch4 as pass through
+----------------------------------------------
+# Channel3 (select RC channel with RC_MAP_AUX1 param)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 5  10000  10000      0 -10000  10000
 
-Z:
-
-Z:
+# Channel4 (select RC channel with RC_MAP_AUX2 param)
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 3 6  10000  10000      0 -10000  10000
 
 Elevons mixer
 --------------
