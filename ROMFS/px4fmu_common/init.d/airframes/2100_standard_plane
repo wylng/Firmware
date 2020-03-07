@@ -27,7 +27,7 @@ then
 	param set PWM_RATE 50
 fi
 
-set MIXER AETRFG
+set MIXER AAERTWF
 
 # Rate must be set by group (see pwm info).
 # Throttle is in the same group as servos.
