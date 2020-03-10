@@ -38,20 +38,20 @@ px4_add_romfs_files(
 	AETRFG.main.mix
 	AETRPP.main.mix
 	bebop.main.mix
-	blade130.main.mix
+	#blade130.main.mix
 	caipi.main.mix
 	CCPM.main.mix
 	claire.aux.mix
 	claire.main.mix
 	claire_vtail.main.mix
-	coax.main.mix
+	#coax.main.mix
 	delta.main.mix
 	deltaquad.main.mix
 	firefly6.aux.mix
 	firefly6.main.mix
 	fw_generic_wing.main.mix
 	FX79.main.mix
-	generic_diff_rover.main.mix
+	#generic_diff_rover.main.mix
 	hexa_cox.main.mix
 	hexa_+.main.mix
 	hexa_x.main.mix
@@ -59,10 +59,10 @@ px4_add_romfs_files(
 	mount.aux.mix
 	mount_legs.aux.mix
 	ocpoc_quad_x.main.mix
-	octo_cox.main.mix
-	octo_cox_w.main.mix
-	octo_+.main.mix
-	octo_x.main.mix
+	#octo_cox.main.mix
+	#octo_cox_w.main.mix
+	#octo_+.main.mix
+	#octo_x.main.mix
 	pass.aux.mix
 	phantom.main.mix
 	quad_dc.main.mix
@@ -74,10 +74,10 @@ px4_add_romfs_files(
 	quad_x_can.main.mix
 	quad_x.main.mix
 	quad_x_vtol.main.mix
-	stampede.main.mix
+	#stampede.main.mix
 	tri_y_yaw-.main.mix
 	tri_y_yaw+.main.mix
-	rover_generic.main.mix
+	#rover_generic.main.mix
 	Viper.main.mix
 	vtol_AAERT.aux.mix
 	vtol_AAVVT.aux.mix
@@ -86,5 +86,5 @@ px4_add_romfs_files(
 	vtol_delta.aux.mix
 	wingwing.main.mix
 	zmr250.main.mix
-	gyrocopter.main.mix
+	#gyrocopter.main.mix
 )

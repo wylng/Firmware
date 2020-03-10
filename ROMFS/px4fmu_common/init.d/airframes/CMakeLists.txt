@@ -101,10 +101,10 @@ px4_add_romfs_files(
 	7001_hexa_+
 
 	# [8000, 8999] Octorotor +"
-	8001_octo_x
+	#8001_octo_x
 
 	# [9000, 9999] Octorotor +"
-	9001_octo_+
+	#9001_octo_+
 
 	# [10000, 10999] Quadrotor Wide arm / H frame"
 	10015_tbs_discovery
@@ -141,14 +141,14 @@ px4_add_romfs_files(
 	14001_tri_y_yaw+
 	14002_tri_y_yaw-
 
-	15001_coax_heli
+	#15001_coax_heli
 
-	16001_helicopter
+	#16001_helicopter
 	
-	30000_gyrocopter
+	#30000_gyrocopter
 
-	50000_generic_ground_vehicle
-	50001_axialracing_ax10
-	50002_traxxas_stampede_2wd
-	50003_aion_robotics_r1_rover
+	#50000_generic_ground_vehicle
+	#50001_axialracing_ax10
+	#50002_traxxas_stampede_2wd
+	#50003_aion_robotics_r1_rover
 )

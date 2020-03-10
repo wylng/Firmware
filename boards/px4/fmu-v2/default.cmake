@@ -47,7 +47,7 @@ px4_add_board(
 		magnetometer/hmc5883
 		#mkblctrl
 		#optical_flow # all available optical flow drivers
-		optical_flow/px4flow
+		#optical_flow/px4flow
 		#pca9685
 		#protocol_splitter
 		#pwm_input
@@ -56,14 +56,14 @@ px4_add_board(
 		px4io
 		#roboclaw
 		#tap_esc
-		#telemetry # all available telemetry drivers
+		telemetry/frsky_telemetry
 		#test_ppm
 		tone_alarm
 		#uavcan
 
 	MODULES
 		#attitude_estimator_q
-		camera_feedback
+		#camera_feedback
 		commander
 		dataman
 		ekf2
