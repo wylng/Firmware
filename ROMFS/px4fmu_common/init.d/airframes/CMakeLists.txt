@@ -46,6 +46,7 @@ px4_add_romfs_files(
 	2105_maja
 	2106_albatross
 	2200_mini_talon
+	2306_pixracer_vtail
 
 	# [3000, 3999] Flying wing"
 	3000_generic_wing
