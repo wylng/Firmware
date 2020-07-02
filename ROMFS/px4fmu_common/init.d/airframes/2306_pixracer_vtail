@@ -43,7 +43,7 @@ then
 	param set PWM_DISARMED 1000
 fi
 
-set MIXER AAVVTP
+set MIXER AVVTPP
 
 # use PWM parameters for throttle channel
-set PWM_OUT 5
+set PWM_OUT 4

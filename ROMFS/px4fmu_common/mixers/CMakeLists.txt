@@ -34,7 +34,7 @@
 px4_add_romfs_files(
 	AAERTWF.main.mix
 	AAVVTWFF.main.mix
-        AAVVTP.main.mix
+        AVVTPP.main.mix
 	AERT.main.mix
 	AETRFG.main.mix
 	AETRPP.main.mix
